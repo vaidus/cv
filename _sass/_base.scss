@@ -33,6 +33,7 @@ body{
 }
 
 .main {
+  @include shadow;
   background: $white;
   padding: 24px;
 }
