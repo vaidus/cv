@@ -15,16 +15,26 @@ body{
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
+  background: url(/images/bg_body.gif) 0 0 repeat scroll;
 }
 
 .wrapper:before,
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
+
 .wrapper {
-  max-width: 728px;
+  @include shadow;
+  max-width: 768px;
+  border: 1px solid #F2F2F2;
+  background: url(/images/bg_crosshatch.gif) 0 0 repeat scroll;
   padding: 0 24px;
   margin: 0 auto;
   zoom: 1;
+}
+
+.main {
+  background: $white;
+  padding: 24px;
 }
 
 // clearfix (now called group,
