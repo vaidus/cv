@@ -27,15 +27,16 @@ body{
   max-width: 768px;
   border: 1px solid #F2F2F2;
   background: url(/cv.vaidusworld.com/images/bg_crosshatch.gif) 0 0 repeat scroll;
-  padding: 0 24px;
-  margin: 0 auto;
+  padding: 30px;
+  margin: 40px auto;
   zoom: 1;
 }
 
 .main {
   @include shadow;
   background: $white;
-  padding: 24px;
+  padding: 30px;
+  
 }
 
 // clearfix (now called group,
