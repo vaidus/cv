@@ -15,7 +15,7 @@ body{
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
-  background: url(/images/bg_body.gif) 0 0 repeat scroll;
+  background: url(/cv/images/bg_body.gif) 0 0 repeat scroll;
   padding: 40px 0;
 }
 
@@ -27,7 +27,7 @@ body{
   @include shadow;
   max-width: 768px;
   border: 1px solid #F2F2F2;
-  background: url(/images/bg_crosshatch.gif) 0 0 repeat scroll;
+  background: url(/cv/images/bg_crosshatch.gif) 0 0 repeat scroll;
   padding: 30px;
   margin: 0 auto;
   zoom: 1;
