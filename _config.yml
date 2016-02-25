@@ -7,6 +7,7 @@ description: "Personal information and CV of Vaidehi Singh."
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 #baseurl: "cv"
+baseurl: ""
 
 
 # Build settings
